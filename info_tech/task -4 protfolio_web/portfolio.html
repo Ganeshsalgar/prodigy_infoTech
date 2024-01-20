@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Poppins:wght@600;800;900&family=Preahvihear&family=Ubuntu:ital,wght@0,300;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/02ff5ccd4e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <H1><B>Ganesh's  Salgar</B></H1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#about">Skills</a></li>
+                    <li><a href="#Protfolio">Project</a></li>
+                    <li><a href="#Contact">Resume</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>WEB DEVELOPER</p>
+                <h1>Hi, I'm <span>GANESH SALGAR</span><br>From India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------about------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                   <img src="./assets/myphoto.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello, I'm Ganesh Salgar, a passionate computer science student hailing from Pune. Currently, I am engaged in an internship at  Codesoft, where I am gaining practical experience and applying my knowledge in the dynamic field of computer science. Throughout my academic journey, I have developed a strong foundation in various programming languages and problem-solving skills. I am enthusiastic about staying updated with the latest industry trends and technologies. My internship at Top Codesoft has further honed my skills and allowed me to contribute to real-world projects. I am eager to bring my knowledge, dedication, and fresh perspectives to contribute to exciting opportunities in the world of computer science.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <!-- <p class="tab-links" onclick="opentab('Experience')">Experience</p> -->
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>C++</span><br>C++ progaming</li>
+                            <li><span>DSA</span><br>data structures and algorithms</li>
+                            <li><span>CCC</span><br>Computer course.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>(2025)pursuing</span><br>B.E At the SPPU university</li>
+                           
+                            <li><span>2018</span><br>12th from HSC Board pune .</li>
+                            <li><span>2016</span><br>10th from SSC Board pune .</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- ----------------services---------------------->
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="Services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>make web deisgn for the web-clients that will well designed applications
+                        to look out of the web is fantastic.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p> It involves collaboration between designers, developers, and other stakeholders to deliver a product that meets both business goals and user needs.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p> here to platform-specific design guidelines (e.g., iOS Human Interface Guidelines, Material Design for Android) for a native look and feel.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------Protfolio----------------->
+    <div id="Protfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./assets/pro_1.jpg" height="500" width="500">
+                    <div class="layer">
+                        <h3>Responsive web</h3>
+                        <p>The responsive web for the Headphones that is pages based on the maeket sell </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./assets/pro_2.png">
+                    <div class="layer">
+                        <h3>Docters web</h3>
+                        <p>The page for the Connection fo the Docter and the client communication
+                            for getting Apointment.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./assets/pro_3.jpg">
+                    <div class="layer">
+                        <h3>Online shopping Web</h3>
+                        <p>The web is connect the client to the web store for the sales.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- ---------------------Contact------------------>
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"> Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>ganeshsalgar2002@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>7219811542</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/home"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/ganesh_salgar_09/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/ganesh-salgar-267148277/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="./assets/Resume.pdf"
+                        class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg">*****</span>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright of the @ Ganesh Salgar.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            openmeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwEPQILhkwM5M6LecNghXTES7qq-sXtwP9s-FPgH4buhH05M5tiw2LKqXozG3GKbWb4/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e =>{
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = " This Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+
+                    }, 5000)
+                    form.reset()
+
+                        .catch(error => console.error('Error!', error.message))
+                })
+            })
+    </script>
+</body>
+
+</html>
